@@ -1,0 +1,72 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "name":"Dan Brady",
+            "email":"dannymb360@gmail.com",
+            "password":"Dan_Brady",
+            "username":"dannymb360"
+    },
+    {
+        "id": 2,
+        "name":"Sarah Hamel",
+        "email":"saharacamel@gmail.com",
+        "password":"kyloren123",
+        "username":"saharacamel"
+},
+{
+    "id": 3,
+    "name":"John Brady",
+    "email":"johntbrady01@gmail.com",
+    "password":"jimmycat",
+    "username":"johntbrady01"
+}
+
+    ],
+    "messages":[
+        {
+            "id":1,
+            "userId":1,
+            "friendId":2,
+            "message":"Hello"
+        },
+        {
+            "id":2,
+            "userId":2,
+            "friendId":1,
+            "message":"Hello Dan"
+        },
+        {
+            "id":3,
+            "userId":2,
+            "friendId":3,
+            "message":"Hello John"
+        },
+        {
+            "id":4,
+            "userId":1,
+            "friendId":3,
+            "message":"Hello John"
+        }
+        
+        
+    ],
+    "friends":[
+        {
+            "id":1,
+            "userId":1,
+            "friendId":2
+        },
+        {
+            "id":2,
+            "userId":1,
+            "friendId":3
+        },
+        {
+            "id":3,
+            "userId":2,
+            "friendId":3
+        }
+        
+    ]
+} 
