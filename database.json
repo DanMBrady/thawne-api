@@ -47,6 +47,24 @@
             "userId":1,
             "friendId":3,
             "message":"Hello John"
+        },
+        {
+            "id":5,
+            "userId":1,
+            "friendId":2,
+            "message":"How are you?"
+        },
+        {
+            "id":6,
+            "userId":3,
+            "friendId":1,
+            "message":"Sup Dan, How have you been?"
+        },
+        {
+            "id":7,
+            "userId":2,
+            "friendId":1,
+            "message":"I'm great! How are you? :)"
         }
         
         
